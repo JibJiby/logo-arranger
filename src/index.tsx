@@ -10,6 +10,8 @@ import '@fontsource/noto-sans';
 
 import store from './store';
 
+import './firebase'; //firebase initial
+
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
